@@ -13,9 +13,9 @@ $.ajax("http://www.omdbapi.com/?apikey=7564f16b&s=" + searchText).done((response
   let output = '';
   $.each(movies, (index, movie) => {
     output += `
-      <div class="col-md-3">
+      <div class="col-md-4">
         <div class="well text-center">
-          <img src="${movie.Poster}">
+          <img src="${movie.Poster}" class="img-thumbnail">
           <h5>${movie.Title}</h5>
           <a onclick="movieSelected('${movie.imdbID}')" class="btn btn-primary" href="#">Movie Details</a>
         </div>
