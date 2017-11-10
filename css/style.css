@@ -3,6 +3,10 @@
   height: 100%;
 }
 
+body{
+  font-family: Verdana;
+}
+
 @media(min-width:960px){
   #movies .col-md-3 .well{
     margin-top: 20px;
@@ -13,6 +17,27 @@
     height: 240px;
   }
 }
+
+h3{
+  color: white;
+}
+
+nav.navbar.navbar-default{
+  background: #557A95;
+}
+
+.navbar-header .navbar-brand{
+  color: white;
+}
+
+.jumbotron{
+  background: #557A95;
+}
+
+.well{
+  background: #557A95;
+}
+
 
 /* h5{
   margin-left: 8%;
