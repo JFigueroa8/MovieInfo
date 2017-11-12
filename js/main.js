@@ -15,7 +15,7 @@ $.ajax("http://www.omdbapi.com/?apikey=7564f16b&s=" + searchText).done((response
     output += `
       <div class="col-md-4">
         <div class="well text-center">
-          <img src="${movie.Poster}" class="img-thumbnail">
+          <img src="${movie.Poster}">
           <h5>${movie.Title}</h5>
           <a onclick="movieSelected('${movie.imdbID}')" class="btn btn-primary" href="#">Movie Details</a>
         </div>
@@ -62,10 +62,10 @@ function getMovie() {
       <div class="row">
         <div class="well test">
           <h3>Plot</h3>
-          ${movie.Plot}
+          <p>${movie.Plot}</p>
           <hr>
           <a href="http://imdb.com/title/${movie.imdbID}" target="_blank" class="btn btn-primary">View IMDB</a>
-          <a href="index.html" class="btn btn-default">Go Back To Search</a>
+          <a href="index.html" class="btn btn-primary">Back To Search</a>
         </div>
       </div>
     `;
