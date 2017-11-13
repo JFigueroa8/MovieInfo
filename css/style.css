@@ -5,7 +5,8 @@
 }
 
 body{
-  background: #373737;
+  /* background: #373737; */
+  background: black;
 }
 
 /* @media(min-width:960px){
@@ -25,7 +26,7 @@ img{
 }
 
 h2{
-  color: #C0B283;;
+  color: #F4F4F4;;
 }
 
 h3{
@@ -35,7 +36,8 @@ h3{
 
 .jumbotron{
   /* background: #DCD0C0; */
-  background: rgba(192, 177, 133, 0);
+  /* background: rgba(192, 177, 133, 0); */
+  background: red;
   /* background: #062F4F; */
 }
 
@@ -44,7 +46,8 @@ nav.navbar.navbar-default{
   /* background: #C0B283;
   border: 1px solid #C0B283; */
   background: rgba(192, 177, 133, 0);
-  border: 0px solid #373737;
+  /* background: #062F4F; */
+  border: 0px solid #062F4F;
 }
 
 a.btn.btn-primary{
@@ -62,7 +65,7 @@ a.btn.btn-primary{
   /* background: #062F4F; */
   /* border: 3px solid white; */
   background: #062F4F;
-  box-shadow: 8px 8px 16px -1px black;
+  /* box-shadow: 8px 8px 16px -1px black; */
   /* background: #557A95; */
 }
 
