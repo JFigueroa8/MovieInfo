@@ -44,7 +44,7 @@ function getMovie() {
     let output = `
       <div class="row">
         <div class="col-md-4">
-          <img src="${movie.Poster}" class="thumbnail">
+          <img src="${movie.Poster}">
         </div>
         <div class="col-md-6">
           <h2 class="text-center">${movie.Title}</h2>

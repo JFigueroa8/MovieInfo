@@ -23,6 +23,7 @@ body{
 img{
   /* border: 3px solid white; */
   box-shadow: 4px 4px 16px -1px black;
+  margin-bottom: 10px;
 }
 
 h2{
@@ -37,7 +38,7 @@ h3{
 .jumbotron{
   /* background: #DCD0C0; */
   /* background: rgba(192, 177, 133, 0); */
-  background: red;
+  background: #062F4F;
   /* background: #062F4F; */
 }
 
