@@ -7,6 +7,7 @@ $(document).ready(() => {
   })
 });
 
+// function that searches omdb using the users input
 function getMovies(searchText){
 $.ajax("http://www.omdbapi.com/?apikey=7564f16b&s=" + searchText).done((response) => {
   let movies = response.Search;
