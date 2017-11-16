@@ -35,6 +35,7 @@ function movieSelected(id) {
   return false;
 }
 
+// function that populates the movies information and plot
 function getMovie() {
   let movieId = sessionStorage.getItem('movieId');
 
