@@ -10,9 +10,16 @@ $(document).ready(() => {
 // function that searches omdb using the users input
 function getMovies(searchText){
 $.ajax("http://www.omdbapi.com/?apikey=7564f16b&s=" + searchText).done((response) => {
-  let movies = response.Search;
   let output = '';
+  //create a unique list of movies with no duplicates
+  let uniq = new Set(response.Search.map(movie => JSON.stringify(movie)));
+
+  //parse the stringified uniq list of movies
+  let movies = Array.from(uniq).map(movie => JSON.parse(movie));
+
   $.each(movies, (index, movie) => {
+    //only list movies that have posters
+    if (movie.Poster !== "N/A") {
     output += `
       <div class="col-md-4">
         <div class="well text-center">
@@ -22,6 +29,7 @@ $.ajax("http://www.omdbapi.com/?apikey=7564f16b&s=" + searchText).done((response
         </div>
       </div>
     `;
+    }
   });
   $('#movies').html(output);
  }).fail((error) => {

@@ -27,7 +27,7 @@ img{
 }
 
 h2{
-  color: #F4F4F4;;
+  color: #F4F4F4;
 }
 
 h3{
@@ -39,6 +39,7 @@ h3{
   /* background: #DCD0C0; */
   /* background: rgba(192, 177, 133, 0); */
   background: #062F4F;
+  border: 1px solid #F4F4F4;
   /* background: #062F4F; */
 }
 
@@ -78,7 +79,7 @@ p{
 };
 
 li{
-  border: 10px solid #F4F4F4;
+  /* border: 10px solid #F4F4F4; */
 }
 
 
