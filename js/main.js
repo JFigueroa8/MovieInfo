@@ -23,7 +23,7 @@ $.ajax("http://www.omdbapi.com/?apikey=7564f16b&s=" + searchText).done((response
     output += `
       <div class="col-md-4">
         <div class="well text-center">
-          <img src="${movie.Poster}">
+          <img src="${movie.Poster}" height="450px" width=auto>
           <h5>${movie.Title}</h5>
           <a onclick="movieSelected('${movie.imdbID}')" class="btn btn-primary" href="#">Movie Details</a>
         </div>
