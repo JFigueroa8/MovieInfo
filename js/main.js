@@ -69,7 +69,7 @@ function getMovie() {
           </ul>
         </div>
       </div>
-      <div class="row">
+      <div class="row test">
         <div class="well test">
           <h3>Plot</h3>
           <p>${movie.Plot}</p>

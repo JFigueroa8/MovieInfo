@@ -2,8 +2,12 @@
   width: 95%;
 }
 
+.row .test{
+  margin: 0 1.5% 0 1.5%;
+}
+
 body{
-  background: black;
+  background: rgb(17, 17, 17);
 }
 
 img{
@@ -50,3 +54,4 @@ h5{
 p{
   color: #F4F4F4;
 };
+
